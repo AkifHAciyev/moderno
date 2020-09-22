@@ -9,6 +9,7 @@
   "author": "Akif",
   "license": "ISC",
   "devDependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
@@ -24,5 +25,7 @@
     "rateyo": "^3.0.0-alpha.2",
     "slick-carousel": "^1.8.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "ion-rangeslider": "^2.3.1"
+  }
 }
