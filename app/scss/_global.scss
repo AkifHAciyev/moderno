@@ -11,6 +11,8 @@ html {
 html,
 body {
 	height: 100%;
+	position: relative;
+	overflow-x: hidden;
 }
 
 a {
@@ -30,7 +32,6 @@ body {
 	font-size: 15px;
 	line-height: 24px;
 	color: $text;
-	overflow-x: hidden;
 }
 
 .wrapper {
@@ -84,10 +85,11 @@ body {
 }
 
 .breadcrumbs {
-	background-color: #fff;
+	background-color: $grey;
 	&__inner {
 		padding: 45px 0px 40px;
-		background-color: #fff;
+		overflow: hidden;
+		width: 1200px;
 	}
 	&__list {
 		li {
@@ -126,4 +128,7 @@ body {
 		color: $green;
 		font-size: 14px;
 	}
+}
+#modal {
+	display: none;
 }
